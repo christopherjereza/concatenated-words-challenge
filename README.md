@@ -10,7 +10,7 @@ The challenge was to parse a file containing every single English word and find:
 2. The second-longest "concatenated word"
 3. The total number of all concatenated words
 
-#### Key points and assumptions (regarding the challenge)
+### Key points and assumptions (regarding the challenge):
 - All words are lowercase and are SORTED.
 - There are about 173,000 words total.
 - Each word is listed on a new line, with no other whitespace.
