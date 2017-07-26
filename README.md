@@ -38,4 +38,4 @@ The program then iterates through the deque, repeating this "prefix-validation" 
 
 The deque is eventually narrowed down until empty and returns the results to be printed.
 
-So.. how did I do? Can you think of any other optimizations I could make to this algorithm? Feel free to let me know!
+So... how did I do? Can you think of any other possible optimizations I may have overlooked? Feel free to let me know!
