@@ -1,4 +1,7 @@
 # Concatenated Words challenge solution
+I was fascinated by the variety of different approaches to a fun problem that I found online. However, after testing out some of the "fastest" optimized solutions on my own computer and seeing that most took around 5 to 10 seconds to run, I felt compelled to create a solution that could run in under 2 seconds.
+
+I chose to attempt this with a very high-level programming language (Python) to see if I could keep my optimizations completely algorithmic, without relying on lower-level "hacks" that a compiled language like C would enable.
 
 ## The challenge
 The challenge was to parse a file containing every single English word and find:
@@ -10,13 +13,6 @@ The challenge was to parse a file containing every single English word and find:
 - All words are lowercase and are SORTED.
 - There are about 173,000 words total.
 - Each word is listed on a new line, with no other whitespace.
-
-## Initial thoughts
-
-I was fascinated by the variety of different approaches to this problem that I found online. However, after testing out some of the "fastest" optimized solutions on my own computer and seeing that most took around 5 to 10 seconds to run, I felt compelled to create a solution that could run in under 2 seconds.
-
-I chose to attempt this with a very high-level programming language (Python) to see if I could keep my optimizations completely algorithmic, without relying on lower-level "hacks" that a compiled language like C would enable.
-
 
 ## Running my solution
 After downloading the files, navigate to the "concatenated-words-challenge" directory, and from there, run: 
