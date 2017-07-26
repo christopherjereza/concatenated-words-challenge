@@ -38,3 +38,5 @@ In my program's first pass through the words from the .txt file, all words with 
 The program then iterates through the deque, repeating this "prefix-validation" process on each suffix. When a suffix is identified as a complete valid word, it is removed from the queue and its full original word is counted and compared to the longest concatenated word so far. Otherwise, it is checked for prefixes and re-added to the deque to continue the process.
 
 The deque is eventually narrowed down until empty and returns the results to be printed.
+
+So.. how did I do? Can you think of any other optimizations I could make to this algorithm? Feel free to let me know!
