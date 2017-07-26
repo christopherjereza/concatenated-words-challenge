@@ -22,9 +22,9 @@ After downloading the files, navigate to the "concatenated-words-challenge" dire
 python WordsChallengeSolution.py
 '''
 My program prints to standard output:
-### Longest concatenated word: ethylenediaminetetraacetates
-### Second-longest concatenated word: electroencephalographically
-### Number of concatenated words: 97107
+- Longest concatenated word: ________________
+- Second-longest concatenated word: _______________
+- Number of concatenated words: _______________
 
 as well the runtime of the program in seconds (for timing purposes).
 
