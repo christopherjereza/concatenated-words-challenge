@@ -3,6 +3,7 @@ I was fascinated by the variety of different approaches to a fun problem that I 
 
 I chose to attempt this with a very high-level programming language (Python) to see if I could keep my optimizations completely algorithmic, without relying on lower-level "hacks" that a compiled language like C would enable.
 
+
 ## The challenge
 The challenge was to parse a file containing every single English word and find:
 1. The longest "concatenated word" (a "concatenated word" being a word comprised entirely of other words in the file)
@@ -13,6 +14,7 @@ The challenge was to parse a file containing every single English word and find:
 - All words are lowercase and are SORTED.
 - There are about 173,000 words total.
 - Each word is listed on a new line, with no other whitespace.
+
 
 ## Running my solution
 After downloading the files, navigate to the "concatenated-words-challenge" directory, and from there, run: 
@@ -25,6 +27,7 @@ My program prints to standard output:
 ### Number of concatenated words: 97107
 
 as well the runtime of the program in seconds (for timing purposes).
+
 
 ## About my approach:
 My solution relies on the fact that each valid concatenated word contains at least another valid word as a prefix, at the beginning of the word (e.g. "applesauce" contains "apple" as its prefix). As the words in the file are parsed one-by-one and added to the "completedWords" set, we can assume that all valid prefixes of each word have already been previously added, since all the original words in the file are sorted lexicographically.
